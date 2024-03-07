@@ -1,0 +1,81 @@
+*{
+padding: 0;
+margin: 0;
+background-color: #f5efff;
+}
+#top-bar{
+ text-align: center;
+ font-size: 3rem;
+  color: #7371FC;
+}
+.option-selector{
+    height: 28vmin;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option-box{
+       height: 28vmin;
+       width: 80vmin;
+       border:2px solid black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       
+}
+.Box{
+    flex-grow: 1;
+    margin: 0.5rem;
+    height: 20vmin;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    
+}
+.result-box{
+    height: 28vmin;
+    width: 80vmin;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.Box2{
+ margin: 0.5rem;
+ height: 20vmin;
+ width:  20vmin;
+ border-radius: 50%;
+ background-size: cover;
+ background-position: center;
+ box-sizing: border-box;
+}
+#vs{
+    font-size: 2rem;
+}
+.Box:hover{
+    border: 2px solid red;
+}
+#stone{
+    background-image: url("../texture/rock.png");
+}
+#paper{
+    background-image: url("../texture/paper.png");
+}
+#scissor{
+    background-image: url("../texture/scissors.png");
+}
+#selected{
+    background-image: url("../texture/scissors.png");
+}
+#random{
+    background-image: url("../texture/scissors.png");
+}
+#result-show{
+    text-align: center;
+    font-size: 2rem;
+}
